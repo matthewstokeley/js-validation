@@ -1,0 +1,1 @@
+validate object properties by type
