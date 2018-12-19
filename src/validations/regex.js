@@ -35,15 +35,10 @@
 	 * 
 	 * @param  {[type]} !__validation.validations [description]
 	 * @return {[type]}                           [description]
-	 */
-	if (!__validation.validations) {
-		__validation.validations = {};
-	}
-
+	
 	/**
 	 * 
 	 * @type {[type]}
 	 */
-	__validation.validations.regex = regEx;
 
 }(__validation));

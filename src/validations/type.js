@@ -27,28 +27,6 @@
 	
 	}
 
-	/**
-	 * 
-	 * @param  {[type]} !__validation [description]
-	 * @return {[type]}               [description]
-	 */
-	if (!__validation) {
-		__validation = {};
-	}
 
-	/**
-	 * 
-	 * @param  {[type]} !__validation.validations [description]
-	 * @return {[type]}                           [description]
-	 */
-	if (!__validation.validations) {
-		__validation.validations = {};
-	}
-
-	/**
-	 * 
-	 * @type {[type]}
-	 */
-	__validation.validations.type = type;
 
 }(__validation));
