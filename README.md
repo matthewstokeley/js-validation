@@ -10,7 +10,7 @@ This library is an experiment in implementing an `interface`-like functionality 
 
 ### Dependencies
 
-[js-objects](https://github.com/matthewstokeley/js-objects) - an experimental `_` copycat built to learn various ways of handling data structures, mostly stateless and immutable.  THe `_` namespace is respected - js-objects uses `__` - however, switching to `underscore` or another `_` library should be trivial.    
+[js-objects](https://github.com/matthewstokeley/js-objects) - an experimental `_` copycat built to learn various ways of handling data structures, mostly stateless and immutable.  The `_` namespace is respected - js-objects uses `__` - however, switching to `underscore` or another `_` library should be trivial.    
 
 
 ### Example  
@@ -18,8 +18,8 @@ This library is an experiment in implementing an `interface`-like functionality 
 ##### Validate an object by type
 
 ```
-// This could be a `pojo` (plain old javascript object), output of a `factory`, 
-// a model for a `mvvm`, or the output of the `FormReader` api translated into an object. 
+// This could be a `pojo` (plain old javascript object), output of a factory, 
+// a model for an mvvm, or the output of the `FormReader` api translated into an object. 
 var dataModel = {
 	any: "data",
 	data: ['a', 'b ', 'c'],
