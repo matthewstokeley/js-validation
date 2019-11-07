@@ -20,10 +20,10 @@
 
 		/**
 		 * [formatModel description]
-		 * @param  {[type]} value    [description]
-		 * @param  {[type]} property [description]
-		 * @param  {[type]} object   [description]
-		 * @return {[type]}          [description]
+		 * @param  {String} value    [description]
+		 * @param  {String} property [description]
+		 * @param  {Object} object   [description]
+		 * @return {Object}          [description]
 		 */
 		function formatModel(value, property, object) {
 			return {
