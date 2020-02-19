@@ -12,7 +12,7 @@
 
 ```
 // This could be a `pojo` (plain old javascript object), output of a factory, 
-// a model for an mvvm, or the output of the `FormReader` api translated into an object. 
+// a model for an mvvm, or the output of the `FormReader` api cast into an object. 
 var dataModel = {
 	any: "data",
 	data: ['a', 'b ', 'c'],
